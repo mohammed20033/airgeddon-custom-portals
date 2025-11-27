@@ -1,0 +1,68 @@
+body * {
+	box-sizing: border-box;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.button {
+  width: 100%;
+	background: #000000;
+	color: #fff;
+	height: 40px;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+	border: 0;
+	outline: 0;
+	cursor: pointer;
+	transition: background 1s;
+	-webkit-transition: background 1s;
+	-moz-transition: background 1s;
+	-ms-transition: background 1s;
+	-o-transition: background 1s;
+	text-align: center;
+	height: 45px;
+}
+
+
+
+.content {
+	width: 100%;
+	background-color: #fff;
+	padding: 20px;
+	margin: 15px auto 0;
+	border-radius: 15px;
+	color: #141414;
+}
+
+.title {
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+#password {
+	width: 100%;
+	margin-bottom: 5px;
+	border-radius: 5px;
+	height: 35px;
+}
+
+#password:hover,
+#password:focus {
+	box-shadow: 0 0 10px #121313;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+#showpass {
+	vertical-align: top;
+}
+
+@media screen (min-width: 1000px) {
+	.content {
+		width: 50%;
+	}
+}
